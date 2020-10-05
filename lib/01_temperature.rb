@@ -1,5 +1,5 @@
 def ftoc(temperature)
-  return ((temperature - 32) / 1.8)
+  return ((temperature - 32) / 1.8).ceil
 end
 
 def ctof(temperature)
